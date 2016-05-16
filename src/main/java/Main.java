@@ -34,7 +34,7 @@ public class Main {
                     id = e.getUid();
                     break;
                 default:
-                    id = 0;
+                    id = -1;
                     break;
             }
             Set<Evaluation> value;
